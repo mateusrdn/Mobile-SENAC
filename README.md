@@ -41,37 +41,37 @@
                                                       <h2 align="center">Funcionalidades e Rotas da API</h2>
                                                                         
                                                                         
-                      | Funcionalidades User |          | Rotas API |          | Métodos de requisição HTTP |
+      | Funcionalidades User |          | Rotas API |          | Métodos de requisição HTTP |
                                     
-                      | -------------------- |          | --------- |          | ------------------------- |
-                      | Visualizar todos os users |     | /api/users |         | GET |
-                      | Buscar usuário por ID |         | /api/user{id} |      | GET |
-                      | Cadastrar Usuário |             | /api/user |          | POST |
-                      | Atualizar Usuário |             | /api/user{id} |      | PUT |
-                      | Deletar Usuário |               | /api |               | DELETE |
+      | -------------------- |          | --------- |          | ------------------------- |
+      | Visualizar todos os users |     | /api/users |         | GET |
+      | Buscar usuário por ID |         | /api/user{id} |      | GET |
+      | Cadastrar Usuário |             | /api/user |          | POST |
+      | Atualizar Usuário |             | /api/user{id} |      | PUT |
+      | Deletar Usuário |               | /api |               | DELETE |
                                                       
-                      | Funcionalidades Login |         | Rotas API |          | Métodos de requisição HTTP |
+      | Funcionalidades Login |         | Rotas API |          | Métodos de requisição HTTP |
                                            
-                      | --------------------- |         | --------- |          | -------------------------- |
-                      | Realizar Login |                | /api/login |         | POST |
+     | --------------------- |         | --------- |          | -------------------------- |
+     | Realizar Login |                | /api/login |         | POST |
                                                       
-                      | Funcionalidades Station |       | Rotas API |          | Método de requisição HTTP |
+     | Funcionalidades Station |       | Rotas API |          | Método de requisição HTTP |
                                            
-                      | ----------------------- |       | --------- |          | ------------------------- |
-                        Visualizar todas as             
-                       workstations disponíveis |      | /api/stations |      | GET |
-                      | Buscar workstation por ID |     | /api/station/{id} |  | GET |
-                      | Cadastrar workstation |         | /api/station |       | POST |
-                      | Atualizar workstation |         | /api/station{id} |   | PUT |
-                      | Deletar workstation |           | /api/station/{id} |  | DELETE |
+     | ----------------------- |       | --------- |          | ------------------------- |
+       Visualizar todas as             
+       workstations disponíveis |      | /api/stations |      | GET |
+     | Buscar workstation por ID |     | /api/station/{id} |  | GET |
+     | Cadastrar workstation |         | /api/station |       | POST |
+     | Atualizar workstation |         | /api/station{id} |   | PUT |
+     | Deletar workstation |           | /api/station/{id} |  | DELETE |
 
-                      | Funcionalidades Reservations |  | Rotas API |                       | Método de requisição HTTP |
+     | Funcionalidades Reservations |  | Rotas API |                       | Método de requisição HTTP |
                                                  
-                      | ---------------------------- |  | --------- |                       | ------------------------- |
-                      | Visualizar reservas efetuadas | | /api/reservations |               | GET |
-                      | Buscar reservas por ID |        | /api/reservation/{id} |           | GET |
-                      | Fazer uma reserva |             | /api/reservation/me |             | POST |
-                      | Atualizar reserva |             | /api/reservation/{id} |           | PUT |
-                      | Cancelar uma reserva |          | /api/reservation/canceled/{id} |  | PUT |
+     | ---------------------------- |  | --------- |                       | ------------------------- |
+     | Visualizar reservas efetuadas | | /api/reservations |               | GET |
+     | Buscar reservas por ID |        | /api/reservation/{id} |           | GET |
+     | Fazer uma reserva |             | /api/reservation/me |             | POST |
+     | Atualizar reserva |             | /api/reservation/{id} |           | PUT |
+     | Cancelar uma reserva |          | /api/reservation/canceled/{id} |  | PUT |
                                        
                
